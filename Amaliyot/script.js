@@ -1,4 +1,4 @@
-const numberOfSeries = +prompt('Nechta serial ko’rdingiz?', 0)
+const numberOfSeries = +prompt('Nechta serial ko’rdingiz?', '')
 
 const seriesDB = {
 	count: numberOfSeries,
@@ -8,13 +8,24 @@ const seriesDB = {
 	privat: false,
 }
 
-const serie1 = prompt('Oxirgi ko’rgan serialingiz?', '')
-const grade1 = +prompt('Nechi baxo berasiz?', '')
+for (let i = 0; i < 2; i++) {
+	let serie = prompt(`Oxirgi ko’rgan serialingiz? ${1 + i}`, '')
+	let grade = +prompt(`Nechi baxo berasiz? ${1 + i}`, '')
 
-const serie2 = prompt('Oxirgi ko’rgan serialingiz?', '')
-const grade2 = +prompt('Nechi baxo berasiz?', '')
+	if (serie != '' && serie != null && grade != '' && grade != null) {
+		seriesDB.series[serie] = grade
+		console.log('DONE!')
+	} else {
+		i--
+	}
+}
 
-seriesDB.series[serie1] = grade1
-seriesDB.series[serie2] = grade2
+if (numberOfSeries < 5) {
+	console.log('Kam serial ko’ripsiz')
+} else if (numberOfSeries >= 5 || numberOfSeries <= 10) {
+	console.log('Siz classik tamoshabin ekansiz')
+} else if (numberOfSeries > 10) {
+	console.log('Siz serialchi zvezda ekansiz')
+}
 
 console.log(seriesDB)
