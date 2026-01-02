@@ -1,0 +1,5 @@
+1-) Eski yozgan kodlarimizni function orqali chaqiring va to’g’ri ism bilan.
+
+2-) showDb nomli funksiya yozing, va ushbu funksiya bizga private xususiyatini tekshirsin. Agarda private - false  bo’lsa bizga hamma ma’lumot ko’rsatilsin, aks xolda yoq.
+
+3-) writeGenres nomli funksiya yozing ushbu funksiya 3marta foydalanuvchidan “Yaxshi ko’rgan janringiz ${son ketma ketlikda}”. Hamma javobni genres massivga joylang.
