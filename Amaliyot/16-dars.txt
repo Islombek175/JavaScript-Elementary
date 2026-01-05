@@ -1,0 +1,6 @@
+Uyga vazifa.
+1-) Bizda tayyor funksiyalardan tashkil topgan dastur mavjud, va biz ushbu funksiyalarni obyektning metodlariga o’zgartirishimiz kerak bo’ladi. Ya’ni seriesDB obyektiga, yozgan funksiyalarimizni metod ko’rinishda yozishimiz kerak. Bunday xolat real loyihalarda uchrab turadi. 
+
+2-) visibleDB nomli metod yarating, qachonki ushbu metodni chaqirsak private xususiyati true bo’lgan bo’lsa false bo’lsin va teskari.
+
+3-) writeGenres ga ok va cancel tugmasini bosganda savolni qayta bering. Agarda foydalanuvchi hammasini tog’ri qilgan bo’lsa massivni forEach metodi yordamida itteratsiya qilib consolega ushbu xabarni yuboring “Yaxshi ko’rgan janringiz #(son) - nomi (massivdagi element)”
