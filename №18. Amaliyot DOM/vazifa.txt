@@ -1,0 +1,10 @@
+Uyga vazifa
+1-) Reklaman blocklarni o’chirish ✅
+
+2-) Drama janrni komediyaga o’zgartirish ✅
+
+3-) Orqa fonni o’zgartirish  ✅
+
+4-) Seriallarni javascript dagi massiv yordamida ko’rsating ✅
+
+5-) Xar bir seriallni o’z nomeri bo’lsin ✅
